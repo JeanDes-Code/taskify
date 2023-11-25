@@ -1,5 +1,4 @@
 import { deleteBoard } from "@/actions/delete-board";
-import { Button } from "@/components/ui/button";
 import FormDelete from "./form-delete";
 
 interface BoardProps {
