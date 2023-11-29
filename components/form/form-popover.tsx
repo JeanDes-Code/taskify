@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/popover";
 import { Button } from "@/components/ui/button";
 import { useAction } from "@/hooks/use-action";
+import { useProModal } from "@/hooks/use-pro-modal";
 import { createBoard } from "@/actions/create-board";
 
 import { FormInput } from "./form-input";
@@ -32,6 +33,7 @@ export const FormPopover = ({
   align,
   side = "bottom",
 }: FormPopoverProps) => {
+  const proModal = useProModal();
   const router = useRouter();
 
   const closeRef = useRef<ElementRef<"button">>(null);
@@ -43,6 +45,7 @@ export const FormPopover = ({
     },
     onError: (error) => {
       toast.error(error);
+      proModal.onOpen();
     },
   });
 
