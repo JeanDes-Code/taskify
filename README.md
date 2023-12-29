@@ -32,21 +32,29 @@ TaskWave emulates essential Trello features, enhanced for business use:
 
 TaskWave addresses various challenges in replicating a platform like Trello for business use, focusing on scalability, security, and user experience.
 
+## Challenges & Solutions
+
+TaskWave addresses various challenges in replicating a platform like Trello for business use, focusing on scalability, security, and user experience.
+
 ## Demonstration of SaaS Expertise
 
 TaskWave showcases my abilities in full-stack development, user experience design, and implementing essential SaaS functionalities.
 
 ## Getting Started
 
-Instructions for setting up and running TaskWave locally will be provided here.
+To get started with TaskWave:
 
-## Contribution
+1. Ensure you have Node.js installed on your system.
+2. Clone the project from this repository.
+3. Run `npm i` to install dependencies.
+4. Set up the `.env` file with the required environment variables.
+5. Follow any additional setup instructions as outlined here.
 
-Contributions are welcome. Guidelines for contributing, including code style and best practices, will be detailed here.
+You can also view a live demo of TaskWave at [TaskWave Live Demo](https://taskwave.vercel.app/).
 
 ## License
 
-The licensing information for TaskWave (e.g., MIT, GPL) will be included here.
+TaskWave is released under a fully open-source license, specifically the MIT License. This license allows you to use, modify, and distribute the software freely.
 
 ---
 
